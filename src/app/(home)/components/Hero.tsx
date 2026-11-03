@@ -37,10 +37,10 @@ export function Hero() {
   }, [isPaused]);
 
   return (
-    <section className="pt-4 pb-12 sm:pt-6 sm:pb-16 lg:pt-8 lg:pb-16">
+    <section className="pt-4 pb-12 sm:pt-6 sm:pb-16 lg:pt-4 lg:pb-8">
       <Container>
         {/* Mobile Screen Size Layout (< lg): Looping photos with text & CTA overlay */}
-        <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl min-h-[540px] sm:min-h-[580px] flex items-center shadow-lg lg:hidden">
+        <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl min-h-[700px] sm:min-h-[740px] flex items-center shadow-lg lg:hidden">
           {/* Background Photo Carousel (Loop) */}
           <div className="absolute inset-0 z-0">
             {HERO_IMAGES.map((img, index) => (
@@ -121,28 +121,28 @@ export function Hero() {
         </div>
 
         {/* Laptop / Desktop Layout (>= lg): 2 Columns with reduced navbar gap & photo carousel */}
-        <div className="hidden lg:grid lg:grid-cols-2 lg:items-center lg:gap-16">
+        <div className="hidden lg:grid lg:grid-cols-2 lg:items-center lg:gap-12 xl:gap-16">
           {/* Left Column: Hero Text and CTA Buttons */}
           <div className="min-w-0">
             <p className="inline-flex rounded-full border border-line bg-surface px-3 py-1 text-sm text-ink-soft">
               Airdrie · Glasgow · Edinburgh
             </p>
-            <h1 className="mt-5 text-4xl font-bold tracking-tight text-ink lg:text-5xl xl:text-6xl leading-tight">
+            <h1 className="mt-4 text-3xl font-bold tracking-tight text-ink lg:text-4xl xl:text-5xl leading-tight">
               Quality workmanship. Modern finishes.
             </h1>
-            <p className="mt-4 max-w-xl text-base leading-relaxed text-ink-soft lg:text-lg">
+            <p className="mt-3 max-w-xl text-base leading-relaxed text-ink-soft">
               Joinery and home improvements from {site.locality}, covering
               Glasgow, Edinburgh and surrounding areas. We supply and fit all
               materials and coordinate all trades, so the work is hassle-free
               from start to finish.
             </p>
-            <div className="mt-8 flex flex-row gap-3">
+            <div className="mt-6 flex flex-row gap-3">
               <Button href="/contact">Free Quote</Button>
               <Button href="/projects" variant="outline">
                 View Our Work
               </Button>
             </div>
-            <p className="mt-6 flex max-w-xl items-start gap-2 text-sm text-ink-soft sm:text-base">
+            <p className="mt-5 flex max-w-xl items-start gap-2 text-sm text-ink-soft">
               <Check
                 aria-hidden="true"
                 className="mt-0.5 h-5 w-5 shrink-0 text-brand-700"
@@ -156,7 +156,7 @@ export function Hero() {
 
           {/* Right Column: Photo Section Carousel in Loop */}
           <div
-            className="relative min-w-0 w-full overflow-hidden rounded-2xl aspect-[4/5] shadow-lg bg-surface group"
+            className="relative min-w-0 w-full overflow-hidden rounded-2xl aspect-[4/3] xl:aspect-[16/11] max-h-[440px] shadow-lg bg-surface group"
             role="region"
             aria-label="Hero image carousel"
             onMouseEnter={() => setIsPaused(true)}
