@@ -40,7 +40,7 @@ export function Hero() {
     <section className="pt-4 pb-12 sm:pt-6 sm:pb-16 lg:pt-4 lg:pb-8">
       <Container>
         {/* Mobile Screen Size Layout (< lg): Looping photos with text & CTA overlay */}
-        <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl min-h-[700px] sm:min-h-[740px] flex items-center shadow-lg lg:hidden">
+        <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl min-h-[700px] sm:min-h-[740px] flex items-start shadow-lg lg:hidden">
           {/* Background Photo Carousel (Loop) */}
           <div className="absolute inset-0 z-0">
             {HERO_IMAGES.map((img, index) => (
@@ -51,9 +51,8 @@ export function Hero() {
                 fill
                 priority={index === 0}
                 sizes="100vw"
-                className={`object-cover transition-opacity duration-1000 ease-in-out ${
-                  activeIndex === index ? "opacity-100" : "opacity-0 pointer-events-none"
-                }`}
+                className={`object-cover transition-opacity duration-1000 ease-in-out ${activeIndex === index ? "opacity-100" : "opacity-0 pointer-events-none"
+                  }`}
               />
             ))}
             {/* Contrast overlay */}
@@ -61,7 +60,7 @@ export function Hero() {
           </div>
 
           {/* Overlay Hero Text and CTA Buttons */}
-          <div className="relative z-10 w-full px-5 py-10 sm:px-10 sm:py-14 text-white">
+          <div className="relative z-10 w-full px-5 pt-8 pb-10 sm:px-10 sm:pt-12 sm:pb-14 text-white">
             <p className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-xs sm:text-sm font-medium text-white/95 backdrop-blur-sm">
               Airdrie · Glasgow · Edinburgh
             </p>
@@ -74,7 +73,7 @@ export function Hero() {
               materials and coordinate all trades, so the work is hassle-free
               from start to finish.
             </p>
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-40 sm:mt-35 flex flex-col gap-3 sm:flex-row">
               <Button href="/contact" className="w-full sm:w-auto shadow-md">
                 Free Quote
               </Button>
@@ -109,11 +108,10 @@ export function Hero() {
                   onClick={() => setActiveIndex(idx)}
                   aria-label={`Go to slide ${idx + 1}`}
                   aria-current={activeIndex === idx}
-                  className={`h-2 rounded-full transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 ${
-                    activeIndex === idx
-                      ? "w-8 bg-brand-500"
-                      : "w-2 bg-white/50 hover:bg-white/80"
-                  }`}
+                  className={`h-2 rounded-full transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 ${activeIndex === idx
+                    ? "w-8 bg-brand-500"
+                    : "w-2 bg-white/50 hover:bg-white/80"
+                    }`}
                 />
               ))}
             </div>
@@ -170,9 +168,8 @@ export function Hero() {
                 fill
                 priority={index === 0}
                 sizes="(min-width: 1024px) 50vw, 100vw"
-                className={`object-cover transition-opacity duration-1000 ease-in-out ${
-                  activeIndex === index ? "opacity-100" : "opacity-0 pointer-events-none"
-                }`}
+                className={`object-cover transition-opacity duration-1000 ease-in-out ${activeIndex === index ? "opacity-100" : "opacity-0 pointer-events-none"
+                  }`}
               />
             ))}
 
@@ -211,11 +208,10 @@ export function Hero() {
                   onClick={() => setActiveIndex(idx)}
                   aria-label={`Go to slide ${idx + 1}`}
                   aria-current={activeIndex === idx}
-                  className={`h-2.5 rounded-full border border-white/80 shadow transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 ${
-                    activeIndex === idx
-                      ? "w-8 bg-white"
-                      : "w-2.5 bg-black/40 hover:bg-black/60"
-                  }`}
+                  className={`h-2.5 rounded-full border border-white/80 shadow transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 ${activeIndex === idx
+                    ? "w-8 bg-white"
+                    : "w-2.5 bg-black/40 hover:bg-black/60"
+                    }`}
                 />
               ))}
             </div>
