@@ -26,10 +26,10 @@ export const services: Service[] = [
       "Supply and fit a complete kitchen renovation, from strip-out through to modern finishes.",
     icon: CookingPot,
     images: [
-      "/service/Kitchen%20Renovations/Kitchen%20Renovations%20(1).jpg",
-      "/service/Kitchen%20Renovations/Kitchen%20Renovations%20(2).jpg",
-      "/service/Kitchen%20Renovations/Kitchen%20Renovations%20(3).jpg",
-      "/service/Kitchen%20Renovations/Kitchen%20Renovations%20(4).jpg",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/kitchen/kitchen_1",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/kitchen/kitchen_2",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/kitchen/kitchen_3",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/kitchen/kitchen_4",
     ],
   },
   {
@@ -39,10 +39,10 @@ export const services: Service[] = [
       "Insulated garden rooms and log cabins, built for extra living space at home.",
     icon: House,
     images: [
-      "/service/Garden%20Rooms%20%20Log%20Cabins/Garden%20Rooms%20%20Log%20Cabins%20(1).jpg",
-      "/service/Garden%20Rooms%20%20Log%20Cabins/Garden%20Rooms%20%20Log%20Cabins%20(2).jpg",
-      "/service/Garden%20Rooms%20%20Log%20Cabins/Garden%20Rooms%20%20Log%20Cabins%20(3).jpg",
-      "/service/Garden%20Rooms%20%20Log%20Cabins/Garden%20Rooms%20%20Log%20Cabins%20(4).jpg",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/garden-rooms/garden_rooms_1",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/garden-rooms/garden_rooms_2",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/garden-rooms/garden_rooms_3",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/garden-rooms/garden_rooms_4",
     ],
   },
   {
@@ -52,10 +52,10 @@ export const services: Service[] = [
       "LVT flooring supplied and fitted for a durable, modern finish throughout the home.",
     icon: Layers,
     images: [
-      "/service/Flooring/Flooring%20(1).jpg",
-      "/service/Flooring/Flooring%20(2).jpg",
-      "/service/Flooring/Flooring%20(3).jpg",
-      "/service/Flooring/Flooring%20(4).jpg",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/flooring/flooring_1",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/flooring/flooring_2",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/flooring/flooring_3",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/flooring/flooring_4",
     ],
   },
   {
@@ -65,9 +65,9 @@ export const services: Service[] = [
       "Staircase and balustrade work, including oak rails and crisp white spindles.",
     icon: AlignVerticalSpaceAround,
     images: [
-      "/service/Staircases/Staircases%20Balustrades%20(1).jpg",
-      "/service/Staircases/Staircases%20Balustrades%20(2).jpg",
-      "/service/Staircases/Staircases%20Balustrades%20(3).jpg",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/staircases/staircases_1",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/staircases/staircases_2",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/staircases/staircases_3",
     ],
   },
   {
@@ -77,10 +77,10 @@ export const services: Service[] = [
       "Shaker panelling, dado and picture rails, and feature walls for a clean, modern look.",
     icon: PanelsTopLeft,
     images: [
-      "/service/Wall%20Panelling/Wall%20Panelling%20%20(1).jpg",
-      "/service/Wall%20Panelling/Wall%20Panelling%20%20(2).jpg",
-      "/service/Wall%20Panelling/Wall%20Panelling%20%20(3).jpg",
-      "/service/Wall%20Panelling/Wall%20Panelling%20%20(4).jpg",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/wall-panelling/wall_panelling_1",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/wall-panelling/wall_panelling_2",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/wall-panelling/wall_panelling_3",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/wall-panelling/wall_panelling_4",
     ],
   },
   {
@@ -90,10 +90,10 @@ export const services: Service[] = [
       "Fitted wardrobes and storage, including sliding-door units made around your space.",
     icon: DoorOpen,
     images: [
-      "/service/Fitted%20Wardrobes/Fitted%20Wardrobes%20(1).jpg",
-      "/service/Fitted%20Wardrobes/Fitted%20Wardrobes%20(2).jpg",
-      "/service/Fitted%20Wardrobes/Fitted%20Wardrobes%20(3).jpg",
-      "/service/Fitted%20Wardrobes/Fitted%20Wardrobes%20(4).jpg",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/fitted-wardrobes/wardrobes_1",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/fitted-wardrobes/wardrobes_2",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/fitted-wardrobes/wardrobes_3",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/fitted-wardrobes/wardrobes_4",
     ],
   },
   {
@@ -103,10 +103,10 @@ export const services: Service[] = [
       "Composite cladding and exterior refreshes, including soffits and roofing where needed.",
     icon: LayoutPanelLeft,
     images: [
-      "/service/Cladding%20%20Exterior%20Refresh/Cladding%20%20Exterior%20Refresh%20(1).jpg",
-      "/service/Cladding%20%20Exterior%20Refresh/Cladding%20%20Exterior%20Refresh%20(2).jpg",
-      "/service/Cladding%20%20Exterior%20Refresh/Cladding%20%20Exterior%20Refresh%20(3).jpg",
-      "/service/Cladding%20%20Exterior%20Refresh/Cladding%20%20Exterior%20Refresh%20(4).jpg",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/cladding/cladding_1",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/cladding/cladding_2",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/cladding/cladding_3",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/cladding/cladding_4",
     ],
   },
   {
@@ -116,9 +116,9 @@ export const services: Service[] = [
       "Garden fencing supplied and fitted, including treated timber runs around the home.",
     icon: Fence,
     images: [
-      "/service/Fencing/Fencing%20(1).jpg",
-      "/service/Fencing/Fencing%20(2).jpg",
-      "/service/Fencing/Fencing%20(3).jpg",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/fencing/fencing_1",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/fencing/fencing_2",
+      "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/services/fencing/fencing_3",
     ],
   },
 ];

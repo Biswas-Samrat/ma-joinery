@@ -57,6 +57,11 @@ const jsonLd = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en-GB" className={`${inter.variable} ${inter.className} h-full antialiased`}>
+      <head>
+        {/* Establish early connection to Cloudinary CDN so images start loading immediately */}
+        <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
+      </head>
       <body className="min-h-full bg-white font-sans text-ink pb-20 md:pb-0">
         <script
           type="application/ld+json"

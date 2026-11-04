@@ -25,7 +25,9 @@ export const projects: Project[] = [
     title: "Kitchen Renovation",
     category: "Kitchens",
     description: "A complete kitchen renovation from strip-out to finish.",
-    image: "/projects/1600607687939-ce8a6c25118c.jpg",
+    image: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/projects/kitchen-renovation",
+    beforeImage: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_1200,c_fill/ma-joinery/featured/before",
+    afterImage: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_1200,c_fill/ma-joinery/featured/after",
     hasBeforeAfter: true,
   },
   {
@@ -34,7 +36,7 @@ export const projects: Project[] = [
     category: "Garden Rooms",
     description:
       "7.5m × 5m, fully insulated, dark grey composite cladding, EPDM roof with a 20-year guarantee.",
-    image: "/projects/1600585154340-be6161a56a0c.jpg",
+    image: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/projects/bespoke-garden-room",
     hasBeforeAfter: false,
   },
   {
@@ -42,7 +44,7 @@ export const projects: Project[] = [
     title: "Log Cabin Home Gym",
     category: "Garden Rooms",
     description: "5.5m × 4.5m tongue-and-groove interlocking cabin.",
-    image: "/projects/1600585154526-990dced4db0d.jpg",
+    image: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/projects/log-cabin-home-gym",
     hasBeforeAfter: false,
   },
   {
@@ -51,7 +53,7 @@ export const projects: Project[] = [
     category: "Exterior",
     description:
       "New composite cladding, Moondust Grey soffit, and a new felt roof.",
-    image: "/projects/1600566753190-17f0baa2a6c3.jpg",
+    image: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/projects/garden-room-cladding",
     hasBeforeAfter: false,
   },
   {
@@ -59,7 +61,7 @@ export const projects: Project[] = [
     title: "Staircase Transformation, Airdrie",
     category: "Interiors",
     description: "Oak balustrade with crisp white spindles.",
-    image: "/projects/1600607687920-4e2a09cf159d.jpg",
+    image: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/projects/staircase-transformation",
     hasBeforeAfter: false,
   },
   {
@@ -67,7 +69,7 @@ export const projects: Project[] = [
     title: "Dado & Picture Rail",
     category: "Interiors",
     description: "Dado and picture rail fitted for a clean interior finish.",
-    image: "/projects/1600210492486-724fe5c67fb0.jpg",
+    image: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/projects/dado-picture-rail",
     hasBeforeAfter: true,
   },
   {
@@ -76,7 +78,7 @@ export const projects: Project[] = [
     category: "Interiors",
     description:
       "A room divided for extra living space, with shaker panelling in the bedroom and a living room feature wall.",
-    image: "/projects/1600566753086-00f18fb6b3ea.jpg",
+    image: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/projects/room-split-panelling",
     hasBeforeAfter: true,
   },
   {
@@ -84,7 +86,7 @@ export const projects: Project[] = [
     title: "Black Feature Wall",
     category: "Interiors",
     description: "A black feature wall finished as part of an interior refresh.",
-    image: "/projects/1600566752355-35792bedcfea.jpg",
+    image: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/projects/black-feature-wall",
     hasBeforeAfter: false,
   },
   {
@@ -93,7 +95,7 @@ export const projects: Project[] = [
     category: "Interiors",
     description:
       "LVT flooring throughout a bungalow plus sliding-door wardrobes.",
-    image: "/projects/1600585152915-d208bec867a1.jpg",
+    image: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/projects/lvt-flooring-wardrobes",
     hasBeforeAfter: false,
   },
   {
@@ -101,7 +103,7 @@ export const projects: Project[] = [
     title: "New Garden Fencing",
     category: "Exterior",
     description: "40 metres of green-treated 4ft fencing.",
-    image: "/projects/garden-fence.jpg",
+    image: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_800,c_fill/ma-joinery/projects/new-garden-fencing",
     hasBeforeAfter: false,
   },
 ];

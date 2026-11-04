@@ -18,7 +18,6 @@ export function Logo({ className = "" }: LogoProps) {
         width={160}
         height={48}
         className="h-9 w-auto sm:h-12"
-        priority
       />
       <span className="truncate text-base font-bold text-ink sm:text-lg">
         {site.name}

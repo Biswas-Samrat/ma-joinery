@@ -9,15 +9,15 @@ import { site } from "@/data/site";
 
 const HERO_IMAGES = [
   {
-    src: "/hero/hero (1).png",
+    src: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_1600,c_fill/ma-joinery/hero/hero_1",
     alt: "M.A Joinery bespoke woodwork and carpentry project in Airdrie",
   },
   {
-    src: "/hero/hero (2).png",
+    src: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_1600,c_fill/ma-joinery/hero/hero_2",
     alt: "M.A Joinery kitchen and interior renovation",
   },
   {
-    src: "/hero/hero (3).png",
+    src: "https://res.cloudinary.com/djruawkhq/image/upload/f_auto,q_auto,w_1600,c_fill/ma-joinery/hero/hero_3",
     alt: "M.A Joinery premium joinery and home improvement",
   },
 ];

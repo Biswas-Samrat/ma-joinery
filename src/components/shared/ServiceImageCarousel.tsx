@@ -51,7 +51,7 @@ export function ServiceImageCarousel({
           }
           aria-hidden={activeIndex !== index}
           fill
-          loading="eager"
+          loading={index === 0 ? "eager" : "lazy"}
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
           className={`object-cover transition-opacity duration-1000 ease-in-out motion-reduce:transition-none ${
             activeIndex === index ? "opacity-100" : "opacity-0"
